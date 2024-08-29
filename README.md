@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+npx create-react-app cars
+
+npm install @reduxjs/toolkit react-redux bulma
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
