@@ -1,12 +1,14 @@
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
+import { removeCar } from "../store";
 
 function CarList() {
+    const dipatch = useDispatch();
     const cars = useSelector((state) => {
         return state.cars.data;
     });
 
     const handleCarDelete = (car) => {
-        //todo
+        dipatch(removeCar(car.id));
     }
 
     const renderedCars = cars.map((car) => {
