@@ -1,6 +1,4 @@
-# Cars app
-
-npx create-react-app cars
+# Cars-App-React
 
 npm install @reduxjs/toolkit react-redux bulma
 
